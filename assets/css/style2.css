@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Home Section */
+.home-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: linear-gradient(to right,#626566, #e74c3c);
+    color: #fff;
+}
+
+.home-section .left-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.home-section .left-content h1 span {
+    color: #222;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.home-section .social-medea a {
+    display: inline-block;
+    margin-right: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.home-section .social-medea a:hover {
+    color: #222;
+}
+
+.home-section .right-content img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+/* About Section */
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f9fa;
+}
+
+.about-section-card {
+    display: flex;
+    flex: 1;
+}
+
+.about-section-left img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.about-section-right {
+    padding-left: 20px;
+}
+
+.about-section-right h2 span {
+    color: #f39c12;
+}
+
+/* Projects Section */
+.projects-section {
+    padding: 50px;
+    background-color: #e3e6ea;
+    text-align: center;
+}
+
+.projects-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.projects-card-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.projects-card-box:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-button {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #222;
+    color: #f39c12;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #111;
+    color: #fff;
+    font-size: 14px;
+}
+
+footer a {
+    color: #f39c12;
+    text-decoration: none;
+}

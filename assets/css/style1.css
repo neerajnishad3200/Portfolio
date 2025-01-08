@@ -1,0 +1,57 @@
+/* Header Section CSS */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #222;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #f39c12;
+}
+
+header ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+header ul li {
+    margin: 0;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+header ul li a:hover {
+    background-color: #f39c12;
+    color: #222;
+    border-radius: 5px;
+}
+
+/* Mobile Responsive Navigation */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
